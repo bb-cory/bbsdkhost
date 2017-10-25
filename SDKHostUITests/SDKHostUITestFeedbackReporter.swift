@@ -9,17 +9,21 @@
 import XCTest
 
 class SDKHostUITestFeedbackReporter: XCTestCase {
+    
+    let app = XCUIApplication()
+    
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
-        let app = XCUIApplication()
+        
         app.launchEnvironment = ["reset_user_defaults" : "yes"]
         XCUIApplication().launch()
     }
     
-    func testTutorialShows() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testShowScreenshotInstructions() {
+//        2.0
+        let element = app.children(matching: .button).element(boundBy: 0).waitForExistence(timeout: 3);
+        // wait 2 secs and show tut
     }
     
 }
