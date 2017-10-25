@@ -13,7 +13,7 @@
 		8BF408E21FA1478C00BFF2D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF408E11FA1478C00BFF2D3 /* Assets.xcassets */; };
 		8BF408E51FA1478C00BFF2D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF408E31FA1478C00BFF2D3 /* LaunchScreen.storyboard */; };
 		8BF408F01FA1478C00BFF2D3 /* SDKHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF408EF1FA1478C00BFF2D3 /* SDKHostTests.swift */; };
-		8BF408FB1FA1478C00BFF2D3 /* SDKHostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF408FA1FA1478C00BFF2D3 /* SDKHostUITests.swift */; };
+		8BF408FB1FA1478C00BFF2D3 /* SDKHostUITestFeedbackReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF408FA1FA1478C00BFF2D3 /* SDKHostUITestFeedbackReporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		8BF408EF1FA1478C00BFF2D3 /* SDKHostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKHostTests.swift; sourceTree = "<group>"; };
 		8BF408F11FA1478C00BFF2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF408F61FA1478C00BFF2D3 /* SDKHostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKHostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BF408FA1FA1478C00BFF2D3 /* SDKHostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKHostUITests.swift; sourceTree = "<group>"; };
+		8BF408FA1FA1478C00BFF2D3 /* SDKHostUITestFeedbackReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKHostUITestFeedbackReporter.swift; sourceTree = "<group>"; };
 		8BF408FC1FA1478C00BFF2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 		8BF408F91FA1478C00BFF2D3 /* SDKHostUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8BF408FA1FA1478C00BFF2D3 /* SDKHostUITests.swift */,
+				8BF408FA1FA1478C00BFF2D3 /* SDKHostUITestFeedbackReporter.swift */,
 				8BF408FC1FA1478C00BFF2D3 /* Info.plist */,
 			);
 			path = SDKHostUITests;
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF408FB1FA1478C00BFF2D3 /* SDKHostUITests.swift in Sources */,
+				8BF408FB1FA1478C00BFF2D3 /* SDKHostUITestFeedbackReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
